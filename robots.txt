@@ -1,0 +1,51 @@
+# robots.txt — SlimTide Official (slimtide-us.vercel.app)
+# Updated: 2026-11-11
+
+User-agent: *
+Allow: /
+Disallow: /images/
+Disallow: /css/
+Disallow: /js/
+Disallow: /.well-known/
+
+# Allow indexing of core pages
+Allow: /index.html
+Allow: /privacy-policy.html
+Allow: /terms-of-service.html
+Allow: /disclaimer.html
+Allow: /affiliate-disclosure.html
+Allow: /contact.html
+
+# Allow AEO/GEO discovery file
+Allow: /.well-known/ard.json
+
+# Sitemap
+Sitemap: https://slimtide-us.vercel.app/sitemap.xml
+
+# Crawl delay (optional — polite for smaller sites)
+Crawl-delay: 1
+
+# AI crawlers — allow for GEO/AEO indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
